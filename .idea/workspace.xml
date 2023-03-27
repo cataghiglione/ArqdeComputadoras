@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4ad5338-274e-4412-88c0-0e8fd771df93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tp1/SumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="b4ad5338-274e-4412-88c0-0e8fd771df93" name="Changes" comment="Sum implemented, tests running ok">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tp1/SubtractTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP1/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP1/Calculator_I.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/Calculator_I.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -55,7 +56,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SubtractTest">
+    <configuration name="SubtractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp1.SubtractTest" />
+      <module name="ArqDeComputadoras.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tp1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tp1.SumTest" />
       <module name="ArqDeComputadoras.test" />
@@ -71,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubtractTest" />
         <item itemvalue="Application.SumTest" />
       </list>
     </recent_temporary>
@@ -84,11 +99,23 @@
       <option name="presentableId" value="Default" />
       <updated>1679593297229</updated>
       <workItem from="1679593298821" duration="1000" />
-      <workItem from="1679922951173" duration="4259000" />
+      <workItem from="1679922951173" duration="6613000" />
     </task>
+    <task id="LOCAL-00001" summary="Sum implemented, tests running ok">
+      <created>1679927374792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679927374792</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sum implemented, tests running ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sum implemented, tests running ok" />
   </component>
 </project>

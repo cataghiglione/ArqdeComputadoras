@@ -5,8 +5,7 @@ public class Calculator implements Calculator_I {
     public String sum(String a, String b) {
         if (a.length() == b.length()) {
             return sumHelper(a, b);
-        }
-        else if (a.length() > b.length()) {
+        } else if (a.length() > b.length()) {
             String zeros = "";
             for (int i = 0; i < (a.length() - b.length()); i++) {
                 zeros += "0";
@@ -32,8 +31,7 @@ public class Calculator implements Calculator_I {
                 if (carry) {
                     result.append("1");
                     carry = false;
-                }
-                else result.append("0");
+                } else result.append("0");
                 if (a.charAt(i) == '1') {
                     carry = true;
                 }
@@ -52,7 +50,20 @@ public class Calculator implements Calculator_I {
 
     @Override
     public String sub(String a, String b) {
-        return null;
+        String tempResult = sum(a, oppositeB(b));
+        return tempResult.substring(1);
+    }
+
+    private String oppositeB(String b){
+        StringBuilder newB = new StringBuilder();
+        for (int i = 0; i < b.length(); i++) {
+            newB.append(opposite(b.charAt(i)));
+        }
+        return sum(newB.toString(), "1");
+    }
+
+    public String opposite(char c){
+        return (c == '0') ? "1" : "0";
     }
 
     @Override
@@ -67,7 +78,11 @@ public class Calculator implements Calculator_I {
 
     @Override
     public String toHex(String binary) {
-        return null;
+        String result = "";
+        for (int i = 0; i < binary.length(); i++) {
+
+        }
+        return result;
     }
 
     @Override
