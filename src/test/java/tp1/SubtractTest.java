@@ -21,5 +21,9 @@ public class SubtractTest {
         String a4 = "11011011";
         String b4 = "00010111";
         System.out.println(calculator.sub(a4, b4));
+
+        String a5 = "11000";
+        String b5 = "111";
+        System.out.println(calculator.sub(a5, b5));
     }
 }

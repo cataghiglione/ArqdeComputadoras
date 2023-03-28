@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4ad5338-274e-4412-88c0-0e8fd771df93" name="Changes" comment="Sum implemented, tests running ok">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tp1/SubtractTest.java" afterDir="false" />
+    <list default="true" id="b4ad5338-274e-4412-88c0-0e8fd771df93" name="Changes" comment="Subtract implemented, tests not running">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tp1/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tp1/SubtractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tp1/SubtractTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,13 +57,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/franciscocavallaro/Documents/UA/ArqdeComputadoras",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -99,7 +112,8 @@
       <option name="presentableId" value="Default" />
       <updated>1679593297229</updated>
       <workItem from="1679593298821" duration="1000" />
-      <workItem from="1679922951173" duration="6613000" />
+      <workItem from="1679922951173" duration="7441000" />
+      <workItem from="1680020494491" duration="5257000" />
     </task>
     <task id="LOCAL-00001" summary="Sum implemented, tests running ok">
       <created>1679927374792</created>
@@ -108,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679927374792</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Subtract implemented, tests not running">
+      <created>1679929927723</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679929927723</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +137,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sum implemented, tests running ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sum implemented, tests running ok" />
+    <MESSAGE value="Subtract implemented, tests not running" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subtract implemented, tests not running" />
   </component>
 </project>
