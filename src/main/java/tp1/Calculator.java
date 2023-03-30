@@ -1,13 +1,14 @@
 package tp1;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class Calculator implements Calculator_I {
 
-    Map<String, String> fromBinaryToHex;
-    Map<String, String> fromHexToBinary;
+    Map<String, String> fromBinaryToHex = new HashMap<>();
+    Map<String, String> fromHexToBinary = new HashMap<>();
 
-    public Calculator(){
+    public Calculator() {
         fromBinaryToHex = createMapBinaryToHex();
         fromHexToBinary = createMapHexToBinary();
     }
@@ -58,12 +59,24 @@ public class Calculator implements Calculator_I {
 
     @Override
     public String toHex(String binary) {
-        int length = binary.length();
-        if (length % 4 == 0){
-            for (int i = 0; i < length - 1; i++) {
-
+        StringBuilder finalResult = new StringBuilder();
+        StringBuilder fourDigitsResult = new StringBuilder();
+        if (binary.length() % 4 != 0) {
+            while (binary.length() % 4 != 0) {
+                binary = "0" + binary;
             }
         }
+        for (int i = 0; i < binary.length() - 1; i += 4) {
+            for (int j = i; j < i + 4; j++) {
+                fourDigitsResult.append(binary.charAt(j));
+            }
+            finalResult.append(fromBinaryToHex.get(fourDigitsResult.toString()));
+            fourDigitsResult = new StringBuilder();
+        }
+        if (finalResult.charAt(0) == '0'){
+            finalResult = new StringBuilder(finalResult.substring(1));
+        }
+        return finalResult.toString();
     }
 
     @Override
@@ -108,7 +121,7 @@ public class Calculator implements Calculator_I {
         return (c == '0') ? "1" : "0";
     }
 
-    private Map<String, String> createMapBinaryToHex(){
+    private Map<String, String> createMapBinaryToHex() {
         fromBinaryToHex.put("0000", "0");
         fromBinaryToHex.put("0001", "1");
         fromBinaryToHex.put("0010", "2");
@@ -128,7 +141,7 @@ public class Calculator implements Calculator_I {
         return fromBinaryToHex;
     }
 
-    private Map<String, String> createMapHexToBinary(){
+    private Map<String, String> createMapHexToBinary() {
         fromHexToBinary.put("0", "0000");
         fromHexToBinary.put("1", "0001");
         fromHexToBinary.put("2", "0010");
