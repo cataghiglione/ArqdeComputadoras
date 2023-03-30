@@ -26,7 +26,7 @@ public class Calculator implements Calculator_I {
         }
     }
 
-    private String fill(String longerString, String shorterString) {
+    private String fill(String longerString, String shorterString) { //to fill the string with zeros in case it is not divisible by 4
         String zeros = "";
         for (int i = 0; i < (longerString.length() - shorterString.length()); i++) {
             zeros += "0";
@@ -61,19 +61,19 @@ public class Calculator implements Calculator_I {
     public String toHex(String binary) {
         StringBuilder finalResult = new StringBuilder();
         StringBuilder fourDigitsResult = new StringBuilder();
-        if (binary.length() % 4 != 0) {
+        if (binary.length() % 4 != 0) { //to fill the string with zeros in case it is not divisible by 4
             while (binary.length() % 4 != 0) {
                 binary = "0" + binary;
             }
         }
-        for (int i = 0; i < binary.length() - 1; i += 4) {
+        for (int i = 0; i < binary.length() - 1; i += 4) { //the string is divisible by 4
             for (int j = i; j < i + 4; j++) {
                 fourDigitsResult.append(binary.charAt(j));
             }
             finalResult.append(fromBinaryToHex.get(fourDigitsResult.toString()));
             fourDigitsResult = new StringBuilder();
         }
-        if (finalResult.charAt(0) == '0'){
+        if (finalResult.charAt(0) == '0'){ //to eliminate the zeros that can be in the start of the result
             finalResult = new StringBuilder(finalResult.substring(1));
         }
         return finalResult.toString();
@@ -81,7 +81,19 @@ public class Calculator implements Calculator_I {
 
     @Override
     public String fromHex(String hex) {
-        return null;
+        hex = hex.toUpperCase();
+        StringBuilder finalResult = new StringBuilder();
+        StringBuilder tempResult = new StringBuilder();
+        for (int i = 0; i < hex.length(); i++) {
+            tempResult.append(hex.charAt(i));
+            finalResult.append(fromHexToBinary.get(tempResult.toString()));
+            tempResult = new StringBuilder();
+        }
+        int i = 0;
+        while (finalResult.charAt(i) == '0'){ //to eliminate the zeros that can be in the start of the result
+            finalResult = new StringBuilder(finalResult.substring(i + 1));
+        }
+        return finalResult.toString();
     }
 
     private String sumHelper(String a, String b) {
@@ -109,7 +121,7 @@ public class Calculator implements Calculator_I {
         return result.toString();
     }
 
-    private String oppositeB(String b) {
+    private String oppositeB(String b) { //it finds the opposite of a binary in order to help us to implement the subtraction
         StringBuilder newB = new StringBuilder();
         for (int i = 0; i < b.length(); i++) {
             newB.append(opposite(b.charAt(i)));
