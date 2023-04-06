@@ -7,6 +7,8 @@
     <list default="true" id="b4ad5338-274e-4412-88c0-0e8fd771df93" name="Changes" comment="BCDEncoder implemented, tests running ok.">
       <change afterPath="$PROJECT_DIR$/src/test/java/tp1/DivisionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_03_2023_12_13__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_03_2023_12_13__Changes_.xml" afterDir="false" />
+    <list default="true" id="b4ad5338-274e-4412-88c0-0e8fd771df93" name="Changes" comment="Binary to Hex implemented, tests running ok.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tp1/MultTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tp1/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/Calculator.java" afterDir="false" />
     </list>
@@ -81,100 +83,58 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.DivisionTest.testDivide6w2">
-    <configuration name="DivisionTest.testDivide101010w110" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tp1.DivisionTest.testDivide101010w110&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Application.MultTest">
+    <configuration name="MultTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp1.MultTest" />
+      <module name="org.example.ArqDeComputadoras.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tp1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="DivisionTest.testDivide10w3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tp1.DivisionTest.testDivide10w3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="SubtractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp1.SubtractTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tp1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="DivisionTest.testDivide6w2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tp1.DivisionTest.testDivide6w2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="SumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp1.SumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tp1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="DivisionTest.testDivide9w3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tp1.DivisionTest.testDivide9w3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="ToBinaryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp1.ToBinaryTest" />
+      <module name="ArqDeComputadoras.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tp1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="ToBCDTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ASCIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,7 +147,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tp1.ToBCDTest&quot;" />
+            <option value="&quot;tp1.ASCIITest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -195,15 +155,16 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DivisionTest.testDivide6w2" />
-        <item itemvalue="Gradle.DivisionTest.testDivide9w3" />
-        <item itemvalue="Gradle.DivisionTest.testDivide10w3" />
-        <item itemvalue="Gradle.DivisionTest.testDivide101010w110" />
-        <item itemvalue="Gradle.ToBCDTest" />
+        <item itemvalue="Application.MultTest" />
+        <item itemvalue="Application.SumTest" />
+        <item itemvalue="Application.SubtractTest" />
+        <item itemvalue="Gradle.ASCIITest" />
+        <item itemvalue="Application.ToBinaryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -219,9 +180,8 @@
       <workItem from="1679922951173" duration="7441000" />
       <workItem from="1680020494491" duration="5931000" />
       <workItem from="1680176562898" duration="4482000" />
-      <workItem from="1680532360425" duration="6051000" />
-      <workItem from="1680716572278" duration="2471000" />
-      <workItem from="1680737489835" duration="4360000" />
+      <workItem from="1680638914624" duration="74000" />
+      <workItem from="1680716730657" duration="1798000" />
     </task>
     <task id="LOCAL-00001" summary="Sum implemented, tests running ok">
       <created>1679927374792</created>
@@ -251,37 +211,18 @@
       <option name="project" value="LOCAL" />
       <updated>1680185472784</updated>
     </task>
-    <task id="LOCAL-00005" summary="BCDEncoder implemented, tests running ok.">
-      <created>1680536498382</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1680536498382</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sum implemented, tests running ok" />
     <MESSAGE value="Subtract implemented, tests not running" />
     <MESSAGE value="Subtract implemented, tests running.&#10;Hex to Binary dictionary implemented.&#10;Binary to Hex dictionary implemented." />
     <MESSAGE value="Binary to Hex implemented, tests running ok." />
-    <MESSAGE value="BCDEncoder implemented, tests running ok." />
-    <option name="LAST_COMMIT_MESSAGE" value="BCDEncoder implemented, tests running ok." />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary to Hex implemented, tests running ok." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -290,45 +231,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/tp1/ToHexTest.java</url>
           <line>15</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tp1/BCDEnconder.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tp1/Calculator.java</url>
-          <line>132</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tp1/Calculator.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tp1/Calculator.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tp1/Calculator.java</url>
-          <line>112</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tp1/Calculator.java</url>
-          <line>113</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/tp1/DivisionTest.java</url>
-          <line>10</line>
-          <properties class="tp1.DivisionTest" method="testDivide101010w110">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

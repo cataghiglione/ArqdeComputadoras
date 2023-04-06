@@ -50,7 +50,11 @@ public class Calculator implements Calculator_I {
 
     @Override
     public String mult(String a, String b) {
-        return null;
+        int aInInt = Integer.parseInt(a, 2);
+        int bInInt = Integer.parseInt(b, 2);
+        int result = aInInt * bInInt;
+        return Integer.toBinaryString(result);
+
     }
 
     @Override
