@@ -59,18 +59,20 @@ public class Calculator implements Calculator_I {
 
     @Override
     public String div(String a, String b) {
-        StringBuilder res = new StringBuilder();
-        int i = 0;
-        for (; i < b.length(); i+=b.length()) {
-            String subA = a.substring(i, i + b.length());
-            if (Integer.parseInt(a) >= Integer.parseInt(b)) {
-                a = sub(subA, b) + a.substring(i+b.length());
-                res.append("1");
-            }
-            else res.append("0");
-        }
-        if(i!=0) res.append("0");
-        return res.toString();
+//        StringBuilder res = new StringBuilder();
+//        int i = 0;
+//        for (; i < b.length(); i+=b.length()) {
+//            String subA = a.substring(i, i + b.length());
+//            if (Integer.parseInt(a) >= Integer.parseInt(b)) {
+//                a = sub(subA, b) + a.substring(i+b.length());
+//                res.append("1");
+//            }
+//            else res.append("0");
+//        }
+//        if(i!=0) res.append("0");
+//        return res.toString();
+        int res = Integer.parseInt(a, 2) / Integer.parseInt(b, 2);
+        return Integer.toBinaryString(res);
     }
 
     @Override
