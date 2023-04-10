@@ -16,4 +16,9 @@ public class DivisionTest {
         assertEquals(calculator.div("110", "10"), "11");
     }
 
+    @Test
+    public void testDivide256w89(){
+        assertEquals(calculator.div("100000000", "1011001"), "10");
+    }
+
 }
